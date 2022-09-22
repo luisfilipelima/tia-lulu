@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-image: url(fundo.png);
+    background-size: cover;
+    width: 100%;
+    height: 110px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a{
+    color:lightsalmon ;
+     font-size: 17px;
+    font-weight: 500;
+}
+
+header nav ul li  a:hover {
+      color: rgb(243, 140, 102);
+}
+
+header nav .menu{
+    margin-right: 250px;
+    margin-top: 20px;
+}
+
+header nav .logo{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: lightpink;
+}
+
+main .imagem-one{
+    position: relative;
+    top: -40px;
+    left: 152px;  
+}
+
+main .imagem-one img{
+    width: 780px;
+    height: 300px;
+}
+
+main .conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .conteudo-direita {
+    position: relative;
+    top: -40px;
+    left: -110px;
+}
+
+main .conteudo-direita img{
+    border-radius: 50%;
+    width: 400px;
+}
+
+main .conteudo-direita .img-text p{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(121, 68, 49);
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height:   28px;
+    display: flex;
+}
+
+main .conteudo-direita .img-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+main .video-mapa {
+    margin-left: 200px;
+    position: relative;
+    top: -270px;    
+    left: -50px;
+    display: flex;
+    align-items: center; 
+    gap: 40px;
+}
+
+main .video-mapa iframe{
+    width: 350px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+main  .video-mapa .video-text h5{
+   color: rgb(121, 68, 49);
+   font-size: 16px;
+   font-weight: 600;
+}
+
+main .video-mapa .video-text-two  h5{
+    color: rgb(121, 68, 49);
+    font-size: 16px;
+    font-weight: 600;
+}
+
