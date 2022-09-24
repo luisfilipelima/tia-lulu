@@ -132,3 +132,74 @@ main .video-mapa .video-text-two  h5{
     font-weight: 600;
 }
 
+main .main2{
+    width: 100%;
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+main .main2 .text h3{
+    margin-bottom: 15px;
+    color: rgb(155, 67, 36);
+}
+
+main .main2 .text p{
+    line-height: 28px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.689);
+    margin-bottom: 3px;
+}
+
+main .main2 .text span{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(232, 120, 40);
+}
+
+main .main2 .imagens h3{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(155, 67, 36);
+    
+}
+
+main .main2 .imagens .imagem-cima img {
+
+     padding:20px;
+}
+
+main .main2 .imagens .imagem-baixo img{
+    padding: 20px;
+}
+
+ .porcima #primeira{
+    position: relative;
+    top: 143px;
+    left: 1083px;
+}
+
+.porcima #segunda{
+    position: relative;
+    top: 143px;
+    left: 1160px;
+}
+
+.porcima #terceira{
+    position: relative;
+    top:323px;
+    left: 890px;
+}
+
+.porcima #quarta{
+ 
+    position: relative;
+    top: 323px;
+    left: 963px;
+}
+
+.porcima{
+  background-color: lightpink;
+}
