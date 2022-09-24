@@ -158,6 +158,10 @@ main .main2 .text span{
     font-weight: 700;
     color: rgb(232, 120, 40);
 }
+main .main2 .text span:hover{
+    cursor: pointer;
+    color: rgb(186, 99, 36);
+}
 
 main .main2 .imagens h3{
     text-align: center;
